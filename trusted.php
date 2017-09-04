@@ -5,7 +5,7 @@ $url = $url . "/trusted";
 $username = $_GET ['username'];
 $site = $_GET ['target_site'];
 
-if (isset($site) === TRUE)
+if (isset($site) === FALSE)
 {
 	$data = array('username' => $username);
 }
